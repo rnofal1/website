@@ -1,10 +1,13 @@
 import React from 'react';
-import { Link } from "gatsby"
-import Footer from "../components/footer"
-import Container from "../components/container"
+import { Link } from "gatsby" //Needed to traverse between pages
+import Footer from "../components/footer" //The footer/contact info
+import Container from "../components/container" //Formatting
+import Layout from "../components/layout" //Import the default layout to have a link to Index/Main page at the top
+import { graphql } from "gatsby" //Will allow us to use common bits of data
 
-export default function Home() {
+export default function Home({ data }) {
     return (
+      <Layout>
         <Container>
       <div style={{ color: `teal` }}>
         <img src="https://media.tenor.com/images/d191d2c9c59517411f22182b6c76e556/tenor.gif" alt="" />
@@ -25,6 +28,17 @@ parcelled out unequally at birth.</p>
         <Footer />
       </div>
       </Container>
+      </Layout>
     );
   }
+  /* Below will retrieve the site title from my metadata in gatsby-config.js */
+  export const query = graphql` 
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
 
