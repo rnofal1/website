@@ -23,7 +23,7 @@ of the confidences were unsought—frequently I have feigned sleep, preoccupatio
 sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they
 express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little
 afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is
-parcelled out unequally at birth.</p>
+parcelled out unequally at birth. - Jay Gatsby </p>
         <Link to="/">Index</Link>
         <Footer />
       </div>
