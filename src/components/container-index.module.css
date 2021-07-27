@@ -1,0 +1,58 @@
+html {
+    background-image: url("serverRoom.jpg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: left;
+}
+
+.header img {
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    /* border-radius: 12px; */
+    background-color: #5c5c5c;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.nav-links {
+    flex-direction: column;
+    list-style: none;
+}
+
+.nav-link-item {
+    padding-bottom: 30px;
+    /*padding-right: 2rem; */
+}
+
+.nav-link-text {
+    transition-duration: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 100%;
+    background-color: #c0c0c0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 70px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+}
+
+    .nav-link-text:hover {
+        background-color: #5c5c5c;
+        color: #FFFFFF;
+    }
