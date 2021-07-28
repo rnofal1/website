@@ -1,10 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"; //Needed to traverse between pages
-import { header, container, navLinks, navLinkItem, navLinkText }  from "../components/container-index.module.css" 
+import { header, container, navLinks, navLinkItem, navLinkText, myText }  from "../components/container-index.module.css" 
 //import Layout from "../components/layout" //Import the default layout to have a link to Index/Main page at the top
 import { graphql } from "gatsby" //Will allow us to use common bits of data
 import portrait from "../images/IMG_1685.jpeg"
+import linkedin from "../images/linkedin.png"
+import github from "../images/github.png"
 
+
+//import spin from "../images/giphy.gif"
+
+//<img src={spin} alt="Icon" />
 
 
 export default function Home({ data }) {
@@ -12,36 +18,26 @@ export default function Home({ data }) {
        
         <main className={container}>
             <div className={header}>
-                <img src={portrait} alt="Icon" />
+                <a id="header" href="https://www.linkedin.com/in/rnofal/">
+                    <img src={linkedin} alt="linked logo" ></img>
+                </a>
+                <a id="header" href="https://github.com/rnofal1">
+                    <img src={github} alt="github logo" width="20" height="20"></img>
+                </a>
                 <h1>Ramsey Nofal</h1>
             </div>
             <nav>
                 <ul className={navLinks}>
                     <li className={navLinkItem}>
                         <Link to="/home/" className={navLinkText}>
-                            Home
+                            Projects
             </Link>
                     </li>
                     <li className={navLinkItem}>
-                        <Link to="/blog/" className={navLinkText}>
-                            Blog
+                        <Link to="/blog/" className={myText}>
+                            Coursework
             </Link>
-                    </li>
-                    <li className={navLinkItem}>
-                        <Link to="/blog/" className={navLinkText}>
-                            Blog
-            </Link>
-                    </li>
-                    <li className={navLinkItem}>
-                        <Link to="/blog/" className={navLinkText}>
-                            Blog
-            </Link>
-                    </li>
-                    <li className={navLinkItem}>
-                        <Link to="/blog/" className={navLinkText}>
-                            Blog
-            </Link>
-                    </li>
+                       </li>
                 </ul>
             </nav>
         </main>
