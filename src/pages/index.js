@@ -1,11 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"; //Needed to traverse between pages
-import { header, container, navLinks, navLinkItem, navLinkText, myText }  from "../components/container-index.module.css" 
+import { header, container, navLinks, navLinkItem, navLinkText }  from "../components/container-index.module.css" 
 //import Layout from "../components/layout" //Import the default layout to have a link to Index/Main page at the top
 import { graphql } from "gatsby" //Will allow us to use common bits of data
 import portrait from "../images/IMG_1685.jpeg"
 import linkedin from "../images/linkedin.png"
 import github from "../images/github.png"
+import projects from "../images/projects.png"
+import coursework from "../images/serverRoom.jpg"
+
 
 
 //import spin from "../images/giphy.gif"
@@ -31,11 +34,13 @@ export default function Home({ data }) {
                     <li className={navLinkItem}>
                         <Link to="/home/" className={navLinkText}>
                             Projects
+                            <img src={projects} alt="projects"></img> 
             </Link>
                     </li>
                     <li className={navLinkItem}>
-                        <Link to="/blog/" className={myText}>
+                        <Link to="/blog/" className={navLinkText}>
                             Coursework
+                            <img src={coursework} alt="coursework"></img> 
             </Link>
                        </li>
                 </ul>
