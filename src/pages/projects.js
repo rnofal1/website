@@ -7,14 +7,14 @@ import { css } from "@emotion/react" //Add some style
 import { rhythm } from "../utils/typography" //Add some text theme
 
 
-export default function Blog({ data }) {
+export default function Projects({ data }) {
   console.log(data) //necessary for querying
   return (
     <Layout>
     <Container>
     <div style={{ color: `teal` }}>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
-      <h1>Blog Posts: </h1>
+      <h1>Projects: </h1>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => ( //This grabs and outputs a list of my blog posts
           <div key={node.id}>

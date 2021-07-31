@@ -2,7 +2,7 @@
 /* Goal: grab data from files, then transform the content*/
 module.exports = {
     siteMetadata: { //Add a site-wide title
-        title: `Ramsey's Site`,
+        title: `Ramsey Nofal`,
       },
     plugins: [  
         { // This will allow me to fetch data from my filesystem
