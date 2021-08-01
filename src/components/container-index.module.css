@@ -1,5 +1,4 @@
 html {
-    /*background-image: url("serverRoom.jpg");*/
     background-color: #FFFFFF;
 }
 
@@ -10,7 +9,7 @@ ul {
 }
 
 .container {
-    /*text-align: left;*/
+    text-align: left;
 }
 
 .header img {
@@ -42,7 +41,6 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     text-decoration: none;
-    /*background-color: #000c;*/
     margin-top: 1vh;
     margin-bottom: 1vh;
     color: #FFFFFF;
@@ -63,7 +61,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     width: 100vw;
-    height: 50vh;
+    height: auto;
     background-color: #E6E6E6;
     padding-top: 1%;
     padding-bottom: 1%;

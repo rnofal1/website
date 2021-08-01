@@ -1,21 +1,20 @@
 import React from "react"
 import Footer from "../components/footer" //Grabs the CSS info
-import Container from "../components/container" //Formatting
+import container from "../components/container-index.module.css"  //Formatting
 import Layout from "../components/layout" //Import the default layout to have a link to Index/Main page at the top
 import { Link, graphql } from "gatsby" //Will allow us to use common bits of data
 import { css } from "@emotion/react" //Add some style
 import { rhythm } from "../utils/typography" //Add some text theme
+//     <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
 
 
 export default function Projects({ data }) {
   console.log(data) //necessary for querying
   return (
     <Layout>
-    <Container>
+    <main className={container}>
     <div style={{ color: `teal` }}>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
       <h1>Projects: </h1>
-      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => ( //This grabs and outputs a list of my blog posts
           <div key={node.id}>
             <Link
@@ -36,7 +35,6 @@ export default function Projects({ data }) {
                   color: #fc4e03;
                 `}
               >
-                — {node.frontmatter.date}
               </span>
             </h3>
             <p>{node.excerpt}</p>
@@ -45,7 +43,7 @@ export default function Projects({ data }) {
         ))}
        <Footer />
     </div>
-    </Container>
+    </main>
     </Layout>
   )
 }
@@ -59,7 +57,6 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
           }
           fields {
             slug

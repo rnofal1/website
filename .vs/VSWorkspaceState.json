@@ -3,11 +3,8 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\images",
-    "\\src\\pages",
-    "\\src\\styles",
-    "\\src\\templates"
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\images\\IMG_1685.jpeg",
+  "SelectedNode": "\\src\\pages\\projects.js",
   "PreviewInSolutionExplorer": false
 }

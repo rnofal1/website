@@ -1,7 +1,7 @@
 ---
-title: "Dear Diary"
-date: "2021-04-10"
+title: "SillyQL"
+date: "Completed"
 ---
-You come to me on this, the day of my daughter's wedding, with this?
-
-<iframe width="560" height="315" src="https://source.unsplash.com/random/400x200" frameborder="0" allowfullscreen></iframe>
+Goal: Create a database with a command line interface.
+---
+Explanation: For this project I wanted to...
