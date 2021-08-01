@@ -65,7 +65,7 @@ ul {
     background-color: #E6E6E6;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 1.5vw;
+    font-size: 1.5vh;
     cursor: pointer;
     color: #000000;
     text-decoration: none;
@@ -79,8 +79,10 @@ ul {
     height: auto;
 }
 
-.nav-link-text:hover {
-    opacity: 0.6;
+@media (any-hover: hover) {
+    .nav-link-text:hover {
+        opacity: 0.6;
+    }
 }
 
 .header img:hover {
