@@ -13,7 +13,7 @@ ul {
 }
 
 .header img {
-    display:inline-block;
+    display: inline-block;
     float: right;
     margin-right: 1vw;
     width: 4vh;
@@ -73,11 +73,12 @@ ul {
 
 .nav-link-item img {
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 75vw;
     height: auto;
 }
+
 
 @media (any-hover: hover) {
     .nav-link-text:hover {
@@ -108,4 +109,3 @@ ul {
         color: #000000;
     }
 }
-
