@@ -3,9 +3,10 @@
     "",
     "\\src",
     "\\src\\components",
+    "\\src\\images",
     "\\src\\pages",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\gatsby-config.js",
+  "SelectedNode": "\\src\\pages\\coursework.js",
   "PreviewInSolutionExplorer": false
 }

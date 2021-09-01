@@ -12,31 +12,30 @@ export default function Coursework({ data }) {
             <main className={container}>
                 <h1> Completed:  </h1>
                 <dl>
-                    <h2> Programming: </h2>
                     <dt>EECS 370</dt>
-                    <dd>Introduction to Computer Architecture</dd>
+                    <dd>Computer Architecture</dd>
                     <dt>EECS 281</dt>
                     <dd>Data Structures and Algorithms</dd>
                     <dt>EECS 270</dt>
-                    <dd>Introduction to Logic Design</dd>
-                    <h2> Circuitry: </h2>
+                    <dd>Logic Design</dd>
                     <dt>EECS 216</dt>
-                    <dd>Introduction to Signals and Systems</dd>
+                    <dd>Signals and Systems</dd>
                     <dt>EECS 215</dt>
-                    <dd>Introduction to Electronic Circuits</dd>
+                    <dd>Electronic Circuits</dd>
+                    <dt>EECS 201</dt>
+                    <dd>Computer Science Pragmatics</dd>
+                    <dt>STATS 412</dt>
+                    <dd>Probability and Statistics</dd>
                 </dl>
                 <h1> In Progress:  </h1>
                 <dl>
-                    <h2> Programming: </h2>
                     <dt>EECS 442</dt>
                     <dd>Computer Vision</dd>
                     <dt>EECS 373</dt>
-                    <dd>Introduction to Embedded System Design</dd>
-                    <h2> Circuitry: </h2>
+                    <dd>Embedded System Design</dd>
                     <dt>EECS 351</dt>
-                    <dd>Introduction to Digital Signal Processing</dd>
+                    <dd>Digital Signal Processing</dd>
                 </dl>
-                <h2> **Detailed info on each course coming soon </h2>
             </main>
         
             </Layout>

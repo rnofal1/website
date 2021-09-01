@@ -35,6 +35,7 @@ export default function Home({ data }) {
                             <img src={network} alt="network"></img>
                             </Link>
                         </li>
+                        <p> Email: rnofal@umich.edu </p>
                     </ul>
                 </nav>
             </main>

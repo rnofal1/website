@@ -26,7 +26,8 @@ export default function Layout({ children }) { //Setup a basic layout in CSS; ad
             </a>
             <a id="header" href="https://github.com/rnofal1">
                 <img src={github} alt="github logo" width="20" height="20"></img>
-            </a>
+                </a>
+            <p> rnofal@umich.edu </p>
             <h1>{data.site.siteMetadata.title}</h1>
             <Link to={`/`}>
                 <h3>
